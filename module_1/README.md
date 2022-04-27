@@ -4,11 +4,13 @@
 
 ## 1.Tēma
 ### Kopsavilkums
-1. Jāizveido jauns repozitorijs [GitHub](https://github.com/), kurš satur README.md failu.
+1. Jāizveido jauns repozitorijs [GitHub](https://github.com/), kurš satur [README.md](README.md) failu.
+
  __Jānodod:__ links uz repozitoriju
 
 2. Jāuzstada programmu `git` no vietnes - https://git-scm.com/ ievērojot jūsu operētāj sistēmas prasības.
  Ja rodas jautājumi: noskatīties pamācību [šeit](https://www.youtube.com/watch?v=4xqVv2lTo40)
+ 
  __Jānodod:__ bilde no jūsu darba stacijas Windows (Linux vai Mac) ar to ka `git` ir uzstādīts. Palaižot komandu `git -version` (Windows : cmd vai Windows PowerShell vai Windows Terminal; Linux: bash vai zsh shell; Mac Os: Terminal app)
 
 3. Jāuzstada vienu no koda rediģēšanas programmas no saraksta zemāk:
@@ -16,6 +18,7 @@
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Atom](https://atom.io/)
+ 
  __Jānodod:__ bilde no jūsu redaktora ar Hello world programmu jebkura programmēšanas valoda, kuru pārvaldāt ar attiecīgo stilu.
 
 ### Materiāli kurus būtu labi apskatīties:
