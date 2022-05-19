@@ -1,7 +1,7 @@
 ## Mājasdarbs - 5. Tēma
 
 ### Izveidotās instances:
-![instances](images/instances.jpg)
+![instances](images/instances.png)
 
 ## 6. Nomainīt **hostname** katram serverim
 1. sudo vim /etc/hostname
@@ -109,5 +109,5 @@ ansible-playbook [AdditionalPackagesDelete.yml](AdditionalPackagesDelete.yml)
 ansible-playbook [WebSuperPage.yml](WebSuperPage.yml)
 
 ## 19. Veiciet pārbaudi vai ar publisko IP Jums veras vaļa lapa. Pārbaudiet attiecīgus AWS iestādījumus
-[AWS inbound rules](images/inbound_rules.png)
-[Mājas lapa](images/index.html.png)
+![AWS inbound rules](images/inbound_rules.png)
+![Mājas lapa](images/index.html.png)
