@@ -1,0 +1,20 @@
+---
+- name: Playbook to Install apache
+  hosts:
+    - webservers
+  tasks:
+  - name: Install apache
+    apt:
+      name:
+        - apache2
+      state: present
+
+- name: Playbook to Install dababase server
+  hosts:
+    - database
+  tasks:
+  - name: Install mariadb-server
+    package:
+      name:
+        - mariadb-server
+      state: present

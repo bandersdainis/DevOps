@@ -1,0 +1,19 @@
+---
+- name: Playbook to Delete Packages
+  hosts:
+    - webservers
+  tasks:
+  - name: Uninstall php
+    package:
+      name:
+        - php
+      state: absent
+- name: Playbook to Delete database server
+  hosts:
+    - database
+  tasks:
+    - name: Uninstall mariadb-server
+      package:
+        name:
+          - mariadb-server
+        state: absent
